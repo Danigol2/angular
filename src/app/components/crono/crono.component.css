@@ -1,0 +1,26 @@
+.container{
+    border:1px solid rgb(87,87,87);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen{
+    flex-grow: 1;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+.buttons{
+    width: 100%;
+
+}
+
+button{
+    display: inline-block;
+    width: 50%;
+}
